@@ -19,5 +19,4 @@ model.fit(x_train, y_train)
 result = model.predict(x_test)
 acc = accuracy_score(y_test, result)
 
-print(acc)
-print(X.shape)
+print(f'Accuracy: {acc}')
